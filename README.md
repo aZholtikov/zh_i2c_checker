@@ -1,3 +1,3 @@
-# esp_component_template
+# I2C checker for ESP32 ESP-IDF
 
-esp_component_template
+## [List of I2C addresses](https://github.com/adafruit/I2C_Addresses/tree/main)

@@ -1,0 +1,220 @@
+{
+  "json": [
+    {
+      "code": "V2615",
+      "falseAlarm": false,
+      "level": 2,
+      "message": "A compatible declaration should be visible when an object or function with external linkage is defined.",
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 6,
+          "endLine": 6,
+          "file": "/Users/alexey.zholtikov/Documents/development/esp_firmwares/zh_i2c_checker/main/main.c",
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 10995805,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "sastId": "MISRA-C-8.4",
+      "projects": [],
+      "id": 283639651
+    },
+    {
+      "code": "V2547",
+      "falseAlarm": false,
+      "level": 2,
+      "message": "The return value of non-void function 'i2c_new_master_bus' should be used.",
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 17,
+          "endLine": 17,
+          "file": "/Users/alexey.zholtikov/Documents/development/esp_firmwares/zh_i2c_checker/main/main.c",
+          "navigation": {
+            "previousLine": -731453230,
+            "currentLine": -850933828,
+            "nextLine": -1701066401,
+            "columns": 0
+          }
+        }
+      ],
+      "sastId": "MISRA-C-17.7",
+      "projects": [],
+      "id": 2015517327
+    },
+    {
+      "code": "V2568",
+      "falseAlarm": false,
+      "level": 2,
+      "message": "Both operands of the '<=' operator should have the same essential type. The current types are: 'unsigned' and 'signed'.",
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 18,
+          "endLine": 18,
+          "file": "/Users/alexey.zholtikov/Documents/development/esp_firmwares/zh_i2c_checker/main/main.c",
+          "navigation": {
+            "previousLine": -850933828,
+            "currentLine": -1701066401,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "sastId": "MISRA-C-10.4",
+      "projects": [],
+      "id": 772319143
+    },
+    {
+      "code": "V2568",
+      "falseAlarm": false,
+      "level": 2,
+      "message": "Both operands of the '/' operator should have the same essential type. The current types are: 'unsigned' and 'signed'.",
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 20,
+          "endLine": 20,
+          "file": "/Users/alexey.zholtikov/Documents/development/esp_firmwares/zh_i2c_checker/main/main.c",
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": 416174890,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "sastId": "MISRA-C-10.4",
+      "projects": [],
+      "id": 2501376534
+    },
+    {
+      "code": "V2568",
+      "falseAlarm": false,
+      "level": 2,
+      "message": "Both operands of the '/' operator should have the same essential type. The current types are: 'signed' and 'unsigned'.",
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 20,
+          "endLine": 20,
+          "file": "/Users/alexey.zholtikov/Documents/development/esp_firmwares/zh_i2c_checker/main/main.c",
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": 416174890,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "sastId": "MISRA-C-10.4",
+      "projects": [],
+      "id": 2503312936
+    },
+    {
+      "code": "V2572",
+      "falseAlarm": false,
+      "level": 2,
+      "message": "The value of the '1000 / ((TickType_t) 1000 / 100)' expression should not be converted from the essential 'unsigned' type to the essential 'signed' type.",
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 20,
+          "endLine": 20,
+          "file": "/Users/alexey.zholtikov/Documents/development/esp_firmwares/zh_i2c_checker/main/main.c",
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": 416174890,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "sastId": "MISRA-C-10.3",
+      "projects": [],
+      "id": 2226696108
+    },
+    {
+      "code": "V2611",
+      "falseAlarm": false,
+      "level": 2,
+      "message": "Implicit casts between a pointer to an incomplete type and any other type shouldn't be performed. Consider inspecting the first argument of the 'i2c_master_probe' function call.",
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 20,
+          "endLine": 20,
+          "file": "/Users/alexey.zholtikov/Documents/development/esp_firmwares/zh_i2c_checker/main/main.c",
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": 416174890,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "sastId": "MISRA-C-11.2",
+      "projects": [],
+      "id": 2590778336
+    },
+    {
+      "code": "V2600",
+      "falseAlarm": false,
+      "level": 2,
+      "message": "The function with the 'printf' name should not be used.",
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 22,
+          "endLine": 22,
+          "file": "/Users/alexey.zholtikov/Documents/development/esp_firmwares/zh_i2c_checker/main/main.c",
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": -744353201,
+            "nextLine": 125,
+            "columns": 0
+          }
+        }
+      ],
+      "sastId": "MISRA-C-21.6",
+      "projects": [],
+      "id": 2177841458
+    },
+    {
+      "code": "V2547",
+      "falseAlarm": false,
+      "level": 2,
+      "message": "The return value of non-void function 'printf' should be used.",
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 22,
+          "endLine": 22,
+          "file": "/Users/alexey.zholtikov/Documents/development/esp_firmwares/zh_i2c_checker/main/main.c",
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": -744353201,
+            "nextLine": 125,
+            "columns": 0
+          }
+        }
+      ],
+      "sastId": "MISRA-C-17.7",
+      "projects": [],
+      "id": 3448076187
+    }
+  ]
+}
