@@ -1,1 +1,6 @@
-idf_component_register(SRCS "main.c" INCLUDE_DIRS "" REQUIRES driver)
+if(${IDF_VERSION_MAJOR} STREQUAL 6)
+    set(requires esp_driver_i2c)
+else()
+    set(requires driver)
+endif()
+idf_component_register(SRCS "main.c" INCLUDE_DIRS "" REQUIRES ${requires})
